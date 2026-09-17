@@ -1,0 +1,9 @@
+{
+  "name": "futurelearn-education",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FutureLearn education website and enrollment API",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
