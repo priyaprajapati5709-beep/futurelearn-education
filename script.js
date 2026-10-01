@@ -25,8 +25,7 @@ async function submitForm(e){
 		return;
 	}
 	try{
-		var apiUrl=window.location.port==='3000' ? '/api/enroll' : 'http://localhost:3000/api/enroll';
-		var response=await fetch(apiUrl,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+		var response=await fetch('/api/enroll',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
 		var result=await response.json();
 		if(!response.ok){throw new Error(result.message || 'Unable to submit enrollment');}
 		form.reset();

@@ -26,3 +26,8 @@ TASK 3 OUTPUTS:
 - Ready to publish using any static hosting service.
 
 Note: The email/phone shown on the demo site are sample details and should be replaced before public use.
+
+DEPLOY:
+- Create a Render Blueprint from this GitHub repository; Render will use render.yaml to configure the Node.js web service.
+- The /api/health endpoint is used for the service health check.
+- The free service uses temporary filesystem storage, so enrollment records in enrollments.json may be lost when the service restarts or redeploys. Use persistent storage before relying on this for real enrollments.
