@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#fff4f6"/>
+<path d="M60 410h680" stroke="#26313a" stroke-width="8" opacity=".12"/>
+<g stroke="#26313a" stroke-width="5"><circle cx="205" cy="290" r="110" fill="#d98f9f"/><path d="M125 275c45-65 125-65 160 15M125 325c55-45 120-40 165 20" fill="none"/><circle cx="430" cy="300" r="112" fill="#67d2d0"/><path d="M345 275c45-65 125-65 170 10M350 330c50-45 120-40 170 15" fill="none"/><circle cx="630" cy="270" r="84" fill="#f2c56b"/><path d="M570 260c40-50 90-45 125 8M575 300c30-30 75-30 115 8" fill="none"/></g>
+<path d="M150 110L575 405M210 95L640 390" stroke="#a86d52" stroke-width="11" stroke-linecap="round"/><path d="M575 405c-80-105-140-55-205-120" fill="none" stroke="#d98f9f" stroke-width="7"/>
+<text x="400" y="465" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#26313a">WOOL YARN • NEEDLES • BUNAI</text>
+</svg>

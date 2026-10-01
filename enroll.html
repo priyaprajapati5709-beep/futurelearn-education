@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enroll at FutureLearn | Start Learning</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="enroll-page">
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="index.html"
+          ><span class="logo-mark">FL</span> Future<span>Learn</span
+          ><small>Learn Today / Lead Tomorrow</small></a
+        >
+        <a class="outline-btn" href="index.html">Back to Home</a>
+      </nav>
+    </header>
+
+    <main class="enroll-layout">
+      <section class="enroll-intro">
+        <p class="eyebrow">FUTURELEARN ADMISSIONS</p>
+        <h1>Give your child a brighter place to learn.</h1>
+        <p>
+          Complete this short form and our academic team will contact you to
+          understand the student's needs, confirm the right subjects and share
+          the available batches.
+        </p>
+        <div class="enroll-benefits">
+          <div>
+            <span>01</span><b>Choose Class 1–12</b
+            ><small>Learning plans for every stage.</small>
+          </div>
+          <div>
+            <span>02</span><b>Select Subjects</b
+            ><small>Foundation, school and skill subjects.</small>
+          </div>
+          <div>
+            <span>03</span><b>Get a Personal Call</b
+            ><small>We will confirm timing and next steps.</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="enroll-form-panel">
+        <div class="form-heading">
+          <p class="eyebrow">ENROLLMENT FORM</p>
+          <h2>Tell us about the student</h2>
+          <p>Fields marked with * are required.</p>
+        </div>
+        <form class="enroll-form" onsubmit="submitForm(event)">
+          <div class="form-row">
+            <label
+              >Student Name *<input
+                type="text"
+                name="studentName"
+                placeholder="Enter student name"
+                required
+            /></label>
+            <label
+              >Parent / Guardian Name *<input
+                type="text"
+                name="guardianName"
+                placeholder="Enter guardian name"
+                required
+            /></label>
+          </div>
+          <div class="form-row">
+            <label
+              >Parent Email *<input
+                type="email"
+                name="email"
+                placeholder="you@example.com"
+                required
+            /></label>
+            <label
+              >Phone Number *<input
+                type="tel"
+                name="phone"
+                placeholder="Enter phone number"
+                required
+            /></label>
+          </div>
+          <div class="form-row">
+            <label
+              >Current Class *<select name="class" required>
+                <option value="">Select class</option>
+                <option>Class 1</option>
+                <option>Class 2</option>
+                <option>Class 3</option>
+                <option>Class 4</option>
+                <option>Class 5</option>
+                <option>Class 6</option>
+                <option>Class 7</option>
+                <option>Class 8</option>
+                <option>Class 9</option>
+                <option>Class 10</option>
+                <option>Class 11</option>
+                <option>Class 12</option>
+              </select></label
+            >
+          </div>
+          <fieldset class="subject-fieldset">
+            <legend>
+              All Subjects Available *
+              <small>Select one or more subjects</small>
+            </legend>
+            <div class="subject-group-label">Classes 1–5</div>
+            <div class="enroll-subjects">
+              <label
+                ><input type="checkbox" name="subjects[]" value="Science" />
+                Science</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="Computer" />
+                Computer</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="EVS" />
+                EVS</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="Mathematics" />
+                Mathematics</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="English" />
+                English</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="Hindi" />
+                Hindi</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="Sanskrit" />
+                Sanskrit</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="SST" />
+                SST</label
+              >
+            </div>
+            <div class="subject-group-label">Classes 6–12</div>
+            <div class="enroll-subjects">
+              <label
+                ><input type="checkbox" name="subjects[]" value="Physics" />
+                Physics</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="Chemistry" />
+                Chemistry</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="Biology" />
+                Biology</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="History" />
+                History</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="Geography" />
+                Geography</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="Civics" />
+                Civics</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="English" />
+                English</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="Hindi" />
+                Hindi</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="Computer" />
+                Computer</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="Mathematics" />
+                Mathematics</label
+              >
+            </div>
+            <div class="subject-group-label">Skill Course</div>
+            <div class="enroll-subjects">
+              <label
+                ><input
+                  type="checkbox"
+                  name="subjects[]"
+                  value="Web Development"
+                />
+                Web Development</label
+              >
+            </div>
+            <div class="subject-group-label">Creative Studio</div>
+            <div class="enroll-subjects">
+              <label
+                ><input
+                  type="checkbox"
+                  name="subjects[]"
+                  value="Art & Painting"
+                />
+                Art & Painting</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="Craft & DIY" />
+                Craft & DIY</label
+              ><label
+                ><input type="checkbox" name="subjects[]" value="Resin Art" />
+                Resin Art</label
+              ><label
+                ><input
+                  type="checkbox"
+                  name="subjects[]"
+                  value="Knitting / Bunai"
+                />
+                Knitting / Bunai</label
+              >
+            </div>
+          </fieldset>
+          <label
+            >Preferred Learning Mode *<select name="mode" required>
+              <option value="">Select mode</option>
+              <option>Online Classes</option>
+              <option>Offline / Classroom Classes</option>
+              <option>Need guidance</option>
+            </select></label
+          >
+          <label
+            >Anything we should know?<textarea
+              name="message"
+              rows="4"
+              placeholder="Tell us about the student's learning goals or questions"
+            ></textarea>
+          </label>
+          <button class="btn" type="submit">Submit Enrollment Request</button>
+          <p class="form-status" role="status" hidden>
+            Thank you! Your enrollment request has been received. Our team will
+            contact you soon.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 FutureLearn Education. Your learning journey starts here.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

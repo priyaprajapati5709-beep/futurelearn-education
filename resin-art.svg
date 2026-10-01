@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#eef8f8"/>
+<circle cx="650" cy="105" r="62" fill="#67d2d0"/><circle cx="650" cy="105" r="40" fill="#f7b7c4"/><circle cx="650" cy="105" r="20" fill="#fff"/>
+<circle cx="550" cy="105" r="38" fill="#f7b7c4"/><circle cx="730" cy="105" r="38" fill="#d9b4ed"/>
+<path d="M85 430h630" stroke="#26313a" stroke-width="8" opacity=".15"/>
+<rect x="120" y="145" width="205" height="255" rx="22" fill="#fff" stroke="#26313a" stroke-width="6"/><rect x="145" y="75" width="155" height="80" rx="18" fill="#dce8ee" stroke="#26313a" stroke-width="6"/>
+<text x="222" y="245" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#26313a">EPOXY</text><text x="222" y="283" text-anchor="middle" font-family="Arial" font-size="22" fill="#d98f9f">RESIN</text><text x="222" y="325" text-anchor="middle" font-family="Arial" font-size="20" fill="#26313a">A+B KIT</text>
+<rect x="370" y="205" width="110" height="195" rx="16" fill="#fff" stroke="#26313a" stroke-width="6"/><rect x="390" y="155" width="70" height="55" rx="13" fill="#dce8ee" stroke="#26313a" stroke-width="6"/><text x="425" y="285" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#26313a">HARDENER</text>
+<path d="M535 240l70 70-55 55-70-70z" fill="#d98f9f" stroke="#26313a" stroke-width="6"/><path d="M575 245l70 70-55 55-70-70z" fill="#67d2d0" stroke="#26313a" stroke-width="6" opacity=".85"/><text x="600" y="415" text-anchor="middle" font-family="Arial" font-size="18" fill="#26313a">MOULDS &amp; PIGMENTS</text>
+</svg>
