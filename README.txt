@@ -1,48 +1,48 @@
-# FutureLearn Education Website
+# 🌟 FutureLearn Education Website
 
 <div align="center">
 
-![FutureLearn](https://img.shields.io/badge/FutureLearn-Education%20Platform-blue?style=for-the-badge)
-![Node.js](https://img.shields.io/badge/Node.js-18%2B-green?style=for-the-badge)
-![HTML5](https://img.shields.io/badge/HTML5-Responsive-orange?style=for-the-badge)
-![CSS3](https://img.shields.io/badge/CSS3-Modern%20Design-ff69b4?style=for-the-badge)
+![FutureLearn](https://img.shields.io/badge/FutureLearn-Education%20Platform-0A66C2?style=for-the-badge&logo=bookstack)
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=node.js)
+![HTML5](https://img.shields.io/badge/HTML5-Responsive-E34F26?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-Modern%20Design-1572B6?style=for-the-badge&logo=css3)
+![Render](https://img.shields.io/badge/Deploy-Render-46E3B7?style=for-the-badge)
 
 </div>
 
-A modern education and coaching website for students, parents, and learners. The project showcases course offerings, class-based learning paths, creative programs, and a working enrollment system for academic support.
+A modern and engaging education platform designed for students, parents, and learners. This project showcases academic subjects, skill-focused learning, creative programs, and a functional enrollment system for a coaching brand.
 
-## Live Preview
-- Local preview: http://localhost:3000
+## ✨ Highlights
+- 🎓 Professional education landing page
+- 📚 Class-wise learning sections and subject roadmap
+- 🧠 Creative Studio and skill-based offerings
+- 💬 Contact and enrollment forms
+- 📱 Responsive design for mobile and desktop
+- 🚀 Deployment-ready setup for Render
+
+## 🌐 Live Preview
+- Local app: http://localhost:3000
 - Enrollment page: http://localhost:3000/enroll.html
 - Health check: http://localhost:3000/api/health
 
-## Features
-- Responsive design for desktop and mobile
-- Professional landing page with multiple educational sections
-- Course and class discovery experience
-- Creative learning and skill programs
-- Contact and enrollment form experience
-- Lightweight Node.js server with enrollment API
-- Render-ready deployment configuration
-
-## Tech Stack
+## 🛠️ Tech Stack
 - HTML5
 - CSS3
 - JavaScript
 - Node.js
-- Render deployment config
+- Render deployment configuration
 
-## Project Structure
-- `index.html` — homepage and main sections
-- `enroll.html` — enrollment page
-- `style.css` — styling and responsive layout
-- `script.js` — menu and form interactions
-- `server.js` — backend server and enrollment API
-- `render.yaml` — deployment config for Render
-- `package.json` — project scripts and metadata
+## 📁 Project Structure
+- `index.html` — main education website homepage
+- `enroll.html` — enrollment form page
+- `style.css` — full styling and responsive layout
+- `script.js` — mobile menu and form behaviors
+- `server.js` — Node.js backend and enrollment API
+- `render.yaml` — deployment setup for Render
+- `package.json` — app scripts and config
 
-## Getting Started
-1. Install Node.js if needed.
+## 🚀 How to Run
+1. Install Node.js.
 2. Open the project folder in PowerShell.
 3. Run:
 
@@ -51,34 +51,34 @@ npm install
 npm start
 ```
 
-4. Open:
+4. Visit:
 
 ```text
 http://localhost:3000
 ```
 
-## Enrollment Flow
-- The enrollment form is available from the homepage and the separate enrollment page.
-- Submitted entries are stored in `enrollments.json`.
-- The form validates required details before submitting.
+## 📝 Enrollment Flow
+- Students can enroll from the homepage or the dedicated enrollment page.
+- Enrollment details are saved in `enrollments.json`.
+- Required fields are validated before submission.
 
-> Important: Use the local server for testing enrollment requests. Opening HTML files directly will not work correctly for the backend API.
+> ⚠️ Use the local server for testing enrollment requests. Opening the HTML directly will not work correctly with the backend API.
 
-## Deployment
+## 🌍 Deployment
 This project is configured for Render using the included `render.yaml` file.
 
-## Notes
-- Sample email and phone details are demo values and should be replaced before public launch.
-- Since the free Render plan uses temporary filesystem storage, enrollment data may reset during restarts or redeployments.
+## 💡 Notes
+- Demo contact email and phone number are sample values and should be replaced before public launch.
+- Since the free Render plan uses temporary filesystem storage, enrollment records may reset after restarts or redeployments.
 
-## Status
+## ✅ Status
 - ✅ Tested locally
-- ✅ API working
+- ✅ Enrollment API working
 - ✅ GitHub ready
 - ✅ Render deployment ready
 
-## GitHub Repository
+## 🔗 GitHub Repository
 https://github.com/priyaprajapati5709-beep/futurelearn-education
 
-## Project Goal
-To create a polished education website that feels professional, trustworthy, and engaging for prospective learners and parents.
+## 🎯 Project Goal
+To build a polished, trustworthy, and visually engaging education website that feels ready for real-world use and presentation.
