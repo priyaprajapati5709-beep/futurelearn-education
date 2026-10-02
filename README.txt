@@ -1,68 +1,84 @@
-FUTURELEARN – AI EDUCATION / COACHING WEBSITE
+# FutureLearn Education Website
 
-A modern education website for students and parents, designed to showcase learning programs, class options, creative learning activities, and enrollment support.
+<div align="center">
 
-Project goal:
-- Create a professional learning website for an education brand
-- Provide a responsive user interface for desktop and mobile
-- Add an enrollment form connected to a lightweight Node.js backend
-- Make the project deployment-ready for Render or other hosting platforms
+![FutureLearn](https://img.shields.io/badge/FutureLearn-Education%20Platform-blue?style=for-the-badge)
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-green?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-Responsive-orange?style=for-the-badge)
+![CSS3](https://img.shields.io/badge/CSS3-Modern%20Design-ff69b4?style=for-the-badge)
 
-Website sections:
-- Home
-- About Us
-- Classes
-- Courses
-- Kids Learning
-- Creative Studio
-- Services
-- Why Us
-- Testimonials
-- Contact
+</div>
 
-Files in this project:
-- index.html — landing page and all main website sections
-- enroll.html — enrollment form page
-- style.css — visual styling and responsive layout
-- script.js — menu toggle and form interaction logic
-- server.js — Node.js server for serving files and handling enrollment submissions
-- render.yaml — Render deployment configuration
-- package.json — app metadata and start script
+A modern education and coaching website for students, parents, and learners. The project showcases course offerings, class-based learning paths, creative programs, and a working enrollment system for academic support.
 
-Local setup:
-1. Install Node.js if it is not already installed.
-2. Open PowerShell in this project folder.
-3. Run: npm install
-4. Run: npm start
-5. Open: http://localhost:3000
+## Live Preview
+- Local preview: http://localhost:3000
+- Enrollment page: http://localhost:3000/enroll.html
+- Health check: http://localhost:3000/api/health
 
-Enrollment flow:
-- Home page includes a direct enrollment flow
-- Enroll page is available at: http://localhost:3000/enroll.html
-- Enrollment data is saved in enrollments.json
-- Health endpoint: http://localhost:3000/api/health
+## Features
+- Responsive design for desktop and mobile
+- Professional landing page with multiple educational sections
+- Course and class discovery experience
+- Creative learning and skill programs
+- Contact and enrollment form experience
+- Lightweight Node.js server with enrollment API
+- Render-ready deployment configuration
 
-Important note:
-- Do not open the HTML files directly for enrollment testing, because the form POST must go through the local server.
+## Tech Stack
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
+- Render deployment config
 
-Features included:
-- Responsive UI for mobile and desktop
-- Sticky navigation bar
-- Hero section with CTA buttons
-- Student showcase and course sections
-- Creative learning cards
-- Contact form with interaction behavior
-- Enrollment form with subject selection and backend persistence
+## Project Structure
+- `index.html` — homepage and main sections
+- `enroll.html` — enrollment page
+- `style.css` — styling and responsive layout
+- `script.js` — menu and form interactions
+- `server.js` — backend server and enrollment API
+- `render.yaml` — deployment config for Render
+- `package.json` — project scripts and metadata
 
-Deployment:
-- This project includes a Render Blueprint configuration in render.yaml
-- Render will use npm install and npm start automatically
-- /api/health is configured as the health check endpoint
+## Getting Started
+1. Install Node.js if needed.
+2. Open the project folder in PowerShell.
+3. Run:
 
-Note:
-- The demo contact email and phone number are sample values and should be replaced before public use.
-- Since the free Render plan uses temporary filesystem storage, enrollment records may be lost after restart or redeploy. For production usage, use persistent storage.
+```bash
+npm install
+npm start
+```
 
-Project status:
-- Completed and tested locally
-- Ready for GitHub and Render deployment
+4. Open:
+
+```text
+http://localhost:3000
+```
+
+## Enrollment Flow
+- The enrollment form is available from the homepage and the separate enrollment page.
+- Submitted entries are stored in `enrollments.json`.
+- The form validates required details before submitting.
+
+> Important: Use the local server for testing enrollment requests. Opening HTML files directly will not work correctly for the backend API.
+
+## Deployment
+This project is configured for Render using the included `render.yaml` file.
+
+## Notes
+- Sample email and phone details are demo values and should be replaced before public launch.
+- Since the free Render plan uses temporary filesystem storage, enrollment data may reset during restarts or redeployments.
+
+## Status
+- ✅ Tested locally
+- ✅ API working
+- ✅ GitHub ready
+- ✅ Render deployment ready
+
+## GitHub Repository
+https://github.com/priyaprajapati5709-beep/futurelearn-education
+
+## Project Goal
+To create a polished education website that feels professional, trustworthy, and engaging for prospective learners and parents.
